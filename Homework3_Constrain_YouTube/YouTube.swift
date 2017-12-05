@@ -15,9 +15,9 @@ struct YouTube {
     let channelImage: UIImage
     let channelName: String
     let numberOfView: String
-    let numberOfSubscript: String
+    let numberOfSubscriber: String
     let numberOfLike: String
-    let numberOfDislike: String
+    let numberOfUnlike: String
     let uploaded: String
     
     

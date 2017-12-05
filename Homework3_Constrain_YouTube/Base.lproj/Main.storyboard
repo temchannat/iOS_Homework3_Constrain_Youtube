@@ -5,10 +5,12 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Video List View Controller-->
+        <!--Channat Tem-->
         <scene sceneID="WKn-Jl-Q0v">
             <objects>
                 <tableViewController id="Raw-4S-7b4" customClass="VideoListViewController" customModule="Homework3_Constrain_YouTube" customModuleProvider="target" sceneMemberID="viewController">
@@ -24,6 +26,10 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <connections>
+                                    <segue destination="RIQ-8B-XJe" kind="show" identifier="showVideoDetails" id="AWm-HY-Upz"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -31,11 +37,77 @@
                             <outlet property="delegate" destination="Raw-4S-7b4" id="1t8-zS-yEq"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="4LD-9e-Iel"/>
+                    <navigationItem key="navigationItem" title="Channat Tem" id="4LD-9e-Iel"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7pH-Z8-oTW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="321" y="109"/>
+        </scene>
+        <!--Video Detail View Controller-->
+        <scene sceneID="E0N-JY-4sv">
+            <objects>
+                <viewController id="RIQ-8B-XJe" customClass="VideoDetailViewController" customModule="Homework3_Constrain_YouTube" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IeI-6J-7mT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bI6-7l-ScP">
+                                <rect key="frame" x="0.0" y="64" width="375" height="208"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="bI6-7l-ScP" secondAttribute="height" multiplier="375:208" id="bnd-lC-UFp"/>
+                                </constraints>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Ygx-AB-QLU">
+                                <rect key="frame" x="0.0" y="269" width="375" height="398"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellTitle" id="u7Y-HY-JFA" customClass="TitleTableViewCell" customModule="Homework3_Constrain_YouTube" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="u7Y-HY-JFA" id="8xl-Oe-l3C" customClass="TitleTableViewCell" customModule="Homework3_Constrain_YouTube" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellSocial" id="iwC-Ey-fG1" customClass="SocialTableViewCell" customModule="Homework3_Constrain_YouTube" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="72" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="iwC-Ey-fG1" id="FIa-Bb-h66">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellChannel" id="O1L-lU-Na3" customClass="ChannelTableViewCell" customModule="Homework3_Constrain_YouTube" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="116" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="O1L-lU-Na3" id="Tdj-Zo-Ssu">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ygx-AB-QLU" firstAttribute="bottom" secondItem="Jja-tF-XZP" secondAttribute="bottom" id="7VO-k7-n0W"/>
+                            <constraint firstItem="bI6-7l-ScP" firstAttribute="trailing" secondItem="Jja-tF-XZP" secondAttribute="trailing" id="Bis-zZ-jnp"/>
+                            <constraint firstItem="Ygx-AB-QLU" firstAttribute="top" secondItem="Jja-tF-XZP" secondAttribute="top" constant="205" id="Pkt-cO-8sT"/>
+                            <constraint firstItem="Ygx-AB-QLU" firstAttribute="leading" secondItem="Jja-tF-XZP" secondAttribute="leading" id="Wg1-wE-rXX"/>
+                            <constraint firstItem="Ygx-AB-QLU" firstAttribute="trailing" secondItem="Jja-tF-XZP" secondAttribute="trailing" id="inf-Lg-jRt"/>
+                            <constraint firstItem="bI6-7l-ScP" firstAttribute="top" secondItem="Jja-tF-XZP" secondAttribute="top" id="mC1-Yc-NSj"/>
+                            <constraint firstItem="bI6-7l-ScP" firstAttribute="leading" secondItem="Jja-tF-XZP" secondAttribute="leading" id="pW2-Kx-rYU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Jja-tF-XZP"/>
+                    </view>
+                    <connections>
+                        <outlet property="videoImagView" destination="bI6-7l-ScP" id="gay-bE-eCw"/>
+                        <outlet property="videoTableView" destination="Ygx-AB-QLU" id="Ihg-as-vgI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lgo-wJ-sFi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1042.4000000000001" y="108.39580209895054"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="NLc-O9-P84">

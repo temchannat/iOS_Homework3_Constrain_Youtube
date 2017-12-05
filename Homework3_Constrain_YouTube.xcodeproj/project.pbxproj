@@ -10,11 +10,17 @@
 		9B71732E1FD6FF0F001310F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B71732D1FD6FF0F001310F5 /* AppDelegate.swift */; };
 		9B7173301FD6FF0F001310F5 /* ViideoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B71732F1FD6FF0F001310F5 /* ViideoListViewController.swift */; };
 		9B7173331FD6FF0F001310F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B7173311FD6FF0F001310F5 /* Main.storyboard */; };
-		9B7173351FD6FF0F001310F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B7173341FD6FF0F001310F5 /* Assets.xcassets */; };
 		9B7173381FD6FF0F001310F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B7173361FD6FF0F001310F5 /* LaunchScreen.storyboard */; };
 		9B7173421FD6FFCE001310F5 /* VideoListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7173401FD6FFCE001310F5 /* VideoListTableViewCell.swift */; };
 		9B7173431FD6FFCE001310F5 /* VideoListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B7173411FD6FFCE001310F5 /* VideoListTableViewCell.xib */; };
 		9B7173451FD70339001310F5 /* YouTube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7173441FD70339001310F5 /* YouTube.swift */; };
+		9B7173471FD70CA4001310F5 /* VideoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7173461FD70CA4001310F5 /* VideoDetailViewController.swift */; };
+		9B7173501FD7133F001310F5 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B71734E1FD7133F001310F5 /* TitleTableViewCell.swift */; };
+		9B7173511FD7133F001310F5 /* TitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B71734F1FD7133F001310F5 /* TitleTableViewCell.xib */; };
+		9B7173541FD7177B001310F5 /* SocialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7173521FD7177B001310F5 /* SocialTableViewCell.swift */; };
+		9B7173551FD7177B001310F5 /* SocialTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B7173531FD7177B001310F5 /* SocialTableViewCell.xib */; };
+		9B7173591FD71BB0001310F5 /* ChannelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7173571FD71BB0001310F5 /* ChannelTableViewCell.swift */; };
+		9B71735A1FD71BB0001310F5 /* ChannelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B7173581FD71BB0001310F5 /* ChannelTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,12 +28,19 @@
 		9B71732D1FD6FF0F001310F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B71732F1FD6FF0F001310F5 /* ViideoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViideoListViewController.swift; sourceTree = "<group>"; };
 		9B7173321FD6FF0F001310F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9B7173341FD6FF0F001310F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B7173371FD6FF0F001310F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B7173391FD6FF0F001310F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B7173401FD6FFCE001310F5 /* VideoListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListTableViewCell.swift; sourceTree = "<group>"; };
 		9B7173411FD6FFCE001310F5 /* VideoListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoListTableViewCell.xib; sourceTree = "<group>"; };
 		9B7173441FD70339001310F5 /* YouTube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTube.swift; sourceTree = "<group>"; };
+		9B7173461FD70CA4001310F5 /* VideoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailViewController.swift; sourceTree = "<group>"; };
+		9B71734E1FD7133F001310F5 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		9B71734F1FD7133F001310F5 /* TitleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleTableViewCell.xib; sourceTree = "<group>"; };
+		9B7173521FD7177B001310F5 /* SocialTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialTableViewCell.swift; sourceTree = "<group>"; };
+		9B7173531FD7177B001310F5 /* SocialTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SocialTableViewCell.xib; sourceTree = "<group>"; };
+		9B7173561FD71854001310F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B7173571FD71BB0001310F5 /* ChannelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelTableViewCell.swift; sourceTree = "<group>"; };
+		9B7173581FD71BB0001310F5 /* ChannelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChannelTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +73,14 @@
 		9B71732C1FD6FF0F001310F5 /* Homework3_Constrain_YouTube */ = {
 			isa = PBXGroup;
 			children = (
+				9B7173481FD712C7001310F5 /* Video Details */,
 				9B71733F1FD6FFA9001310F5 /* Video List */,
 				9B71732D1FD6FF0F001310F5 /* AppDelegate.swift */,
 				9B71732F1FD6FF0F001310F5 /* ViideoListViewController.swift */,
+				9B7173461FD70CA4001310F5 /* VideoDetailViewController.swift */,
 				9B7173311FD6FF0F001310F5 /* Main.storyboard */,
-				9B7173341FD6FF0F001310F5 /* Assets.xcassets */,
 				9B7173361FD6FF0F001310F5 /* LaunchScreen.storyboard */,
+				9B7173561FD71854001310F5 /* Assets.xcassets */,
 				9B7173391FD6FF0F001310F5 /* Info.plist */,
 				9B7173441FD70339001310F5 /* YouTube.swift */,
 			);
@@ -79,6 +94,43 @@
 				9B7173411FD6FFCE001310F5 /* VideoListTableViewCell.xib */,
 			);
 			path = "Video List";
+			sourceTree = "<group>";
+		};
+		9B7173481FD712C7001310F5 /* Video Details */ = {
+			isa = PBXGroup;
+			children = (
+				9B71734B1FD712F7001310F5 /* Channel */,
+				9B71734A1FD712EE001310F5 /* Social */,
+				9B7173491FD712D9001310F5 /* Title */,
+			);
+			path = "Video Details";
+			sourceTree = "<group>";
+		};
+		9B7173491FD712D9001310F5 /* Title */ = {
+			isa = PBXGroup;
+			children = (
+				9B71734E1FD7133F001310F5 /* TitleTableViewCell.swift */,
+				9B71734F1FD7133F001310F5 /* TitleTableViewCell.xib */,
+			);
+			path = Title;
+			sourceTree = "<group>";
+		};
+		9B71734A1FD712EE001310F5 /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				9B7173521FD7177B001310F5 /* SocialTableViewCell.swift */,
+				9B7173531FD7177B001310F5 /* SocialTableViewCell.xib */,
+			);
+			path = Social;
+			sourceTree = "<group>";
+		};
+		9B71734B1FD712F7001310F5 /* Channel */ = {
+			isa = PBXGroup;
+			children = (
+				9B7173571FD71BB0001310F5 /* ChannelTableViewCell.swift */,
+				9B7173581FD71BB0001310F5 /* ChannelTableViewCell.xib */,
+			);
+			path = Channel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +192,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B7173511FD7133F001310F5 /* TitleTableViewCell.xib in Resources */,
+				9B71735A1FD71BB0001310F5 /* ChannelTableViewCell.xib in Resources */,
 				9B7173381FD6FF0F001310F5 /* LaunchScreen.storyboard in Resources */,
+				9B7173551FD7177B001310F5 /* SocialTableViewCell.xib in Resources */,
 				9B7173431FD6FFCE001310F5 /* VideoListTableViewCell.xib in Resources */,
-				9B7173351FD6FF0F001310F5 /* Assets.xcassets in Resources */,
 				9B7173331FD6FF0F001310F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,8 +209,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B7173301FD6FF0F001310F5 /* ViideoListViewController.swift in Sources */,
+				9B7173591FD71BB0001310F5 /* ChannelTableViewCell.swift in Sources */,
 				9B7173451FD70339001310F5 /* YouTube.swift in Sources */,
 				9B7173421FD6FFCE001310F5 /* VideoListTableViewCell.swift in Sources */,
+				9B7173471FD70CA4001310F5 /* VideoDetailViewController.swift in Sources */,
+				9B7173541FD7177B001310F5 /* SocialTableViewCell.swift in Sources */,
+				9B7173501FD7133F001310F5 /* TitleTableViewCell.swift in Sources */,
 				9B71732E1FD6FF0F001310F5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

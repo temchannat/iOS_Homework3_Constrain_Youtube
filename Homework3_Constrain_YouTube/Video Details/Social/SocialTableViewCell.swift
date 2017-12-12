@@ -9,8 +9,10 @@
 import UIKit
 
 class SocialTableViewCell: UITableViewCell {
-    @IBOutlet weak var numberOfLikeLabel: UILabel!
+
     @IBOutlet weak var numberOfUnlikeLabel: UILabel!
+
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()

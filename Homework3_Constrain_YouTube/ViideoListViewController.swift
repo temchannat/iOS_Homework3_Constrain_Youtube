@@ -43,7 +43,7 @@ class VideoListViewController: UITableViewController {
             YouTube( videoImageView: #imageLiteral(resourceName: "b"),
                      videoTitle: "Mandy Harvey: Deaf Singer Earns Simon Golden Buzzer - AGT 2017",
                      channelImage: #imageLiteral(resourceName: "channel_agt"),
-                     channelName: "American Got Talent",
+                     channelName: "American Got Talent BTB ABC",
                      numberOfView: "2M Views",
                      numberOfSubscriber: "100K",
                      numberOfLike: "1M",

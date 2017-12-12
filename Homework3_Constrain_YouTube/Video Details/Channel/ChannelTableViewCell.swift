@@ -20,7 +20,10 @@ class ChannelTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+        channelImageView.clipsToBounds = true
+        let imageHieght = channelImageView.frame.height
+        channelImageView.layer.cornerRadius = imageHieght / 2
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

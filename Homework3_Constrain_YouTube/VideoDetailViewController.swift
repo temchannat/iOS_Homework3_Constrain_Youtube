@@ -44,7 +44,6 @@ class VideoDetailViewController: UIViewController, UITableViewDelegate, UITableV
             return cell
         } else if indexPath.row == 1 {
             let cell = Bundle.main.loadNibNamed("SocialTableViewCell", owner: self, options: nil)?.first as! SocialTableViewCell
-            cell.numberOfLikeLabel.text = youtube?.numberOfLike
             cell.numberOfUnlikeLabel.text = youtube?.numberOfUnlike
             return cell
         } else {

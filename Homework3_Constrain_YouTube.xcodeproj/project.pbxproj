@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B3E87621FD7A557008D6750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B7173561FD71854001310F5 /* Assets.xcassets */; };
 		9B71732E1FD6FF0F001310F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B71732D1FD6FF0F001310F5 /* AppDelegate.swift */; };
 		9B7173301FD6FF0F001310F5 /* ViideoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B71732F1FD6FF0F001310F5 /* ViideoListViewController.swift */; };
 		9B7173331FD6FF0F001310F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B7173311FD6FF0F001310F5 /* Main.storyboard */; };
@@ -192,6 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B3E87621FD7A557008D6750 /* Assets.xcassets in Resources */,
 				9B7173511FD7133F001310F5 /* TitleTableViewCell.xib in Resources */,
 				9B71735A1FD71BB0001310F5 /* ChannelTableViewCell.xib in Resources */,
 				9B7173381FD6FF0F001310F5 /* LaunchScreen.storyboard in Resources */,
